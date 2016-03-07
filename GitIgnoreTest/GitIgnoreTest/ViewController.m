@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import <MJExtension.h>
+
+#import "User.h"
 
 @interface ViewController ()
 
@@ -16,7 +19,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    NSDictionary *dict = @{
+                           @"name" : @"Jack",
+                           @"icon" : @"lufy.png",
+                           @"age" : @20,
+                           @"height" : @"1.55",
+                           @"money" : @100.9,
+                           @"gay" : @"true"
+                           //   @"gay" : @"1"
+                           //   @"gay" : @"NO"
+                           };
+    
+    User *user = [User objectWithKeyValues:dict];
+    
+    NSLog(@"name---%@,icon---%@,height---%@",user.name,user.icon,user.height);
 }
 
 - (void)didReceiveMemoryWarning {

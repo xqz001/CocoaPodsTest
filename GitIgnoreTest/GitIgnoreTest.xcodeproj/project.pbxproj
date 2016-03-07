@@ -14,6 +14,7 @@
 		D0E6A42A1C8D52E70029B1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E6A4281C8D52E70029B1BA /* Main.storyboard */; };
 		D0E6A42C1C8D52E70029B1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E6A42B1C8D52E70029B1BA /* Assets.xcassets */; };
 		D0E6A42F1C8D52E70029B1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E6A42D1C8D52E70029B1BA /* LaunchScreen.storyboard */; };
+		D0E6A4391C8D78DE0029B1BA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6A4381C8D78DE0029B1BA /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		D0E6A42B1C8D52E70029B1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E6A42E1C8D52E70029B1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E6A4301C8D52E70029B1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E6A4371C8D78DE0029B1BA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D0E6A4381C8D78DE0029B1BA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		E78A88F61EEDC19A547F8573 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F62F7BE7F6869A2CF9A9BC8A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,6 +94,8 @@
 				D0E6A42D1C8D52E70029B1BA /* LaunchScreen.storyboard */,
 				D0E6A4301C8D52E70029B1BA /* Info.plist */,
 				D0E6A41F1C8D52E70029B1BA /* Supporting Files */,
+				D0E6A4371C8D78DE0029B1BA /* User.h */,
+				D0E6A4381C8D78DE0029B1BA /* User.m */,
 			);
 			path = GitIgnoreTest;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E6A4391C8D78DE0029B1BA /* User.m in Sources */,
 				D0E6A4271C8D52E70029B1BA /* ViewController.m in Sources */,
 				D0E6A4241C8D52E70029B1BA /* AppDelegate.m in Sources */,
 				D0E6A4211C8D52E70029B1BA /* main.m in Sources */,
